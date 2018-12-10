@@ -26,7 +26,8 @@ jupyter:
 # ** Compter les fractions positives irréductibles **
 
 
-Nous savons que l'ensemble des $\mathbb{Q}$ est dénombrable. Dans ce notebook nousprésentons deux mises en oeuvre de ce résultat sous la forme de la construction d'arbres binaires dont les noeuds portent toutes les fractions irréductibles positives.  
+Nous savons que l'ensemble des <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{100}&space;\bg_white&space;\fn_cm&space;\large&space;\mathbb{Q}" target="_blank">
+<img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{100}&space;\bg_white&space;\fn_cm&space;\large&space;\mathbb{Q}" title="\large \mathbb{Q}" /></a> est dénombrable. Dans ce notebook nousprésentons deux mises en oeuvre de ce résultat sous la forme de la construction d'arbres binaires dont les noeuds portent toutes les fractions irréductibles positives.  
 J'ai été trés impressionné par le chapitre du livre de Donald Knuth `Concrete Mathematics` dédié à ce thème sous la forme de la construction de l'arbre de Stern-Brocot. Il m'a semblé que transformer ce chapitre en un "dynabook", grâce à *jupyter notebook*, avec Python permettant d'expérimenter, était une bonne idée.  
 Par ailleurs, entretemps, un ami m'a fait lire un article de Calkin et Wilf sur la construction d'un autre arbre binaire dont les noeuds étaient aussi toutes les fractions irréductibles positives. L'idée de trouver quelle était la relation entre ces deux arbres m'a immédiatement excité. Et j'ai été trés heureux de trouver une élégante relation entre ces deux versions, mais quelques recherches sur le web m'ont vite appris que ma découverte, sous d'autres formes avait déjà été faite...  
 J'espère cependant que ma version pythonique pourra plaire à certains...  
